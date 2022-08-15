@@ -1,0 +1,46 @@
+#wrap {
+    position: relative;
+    width: 100%;
+    min-width: 1220px;
+}
+
+#header {
+    position: relative;
+    padding: 20px 50px;
+    display: flex;
+    border: 1px solid #000;
+}
+.logo a {
+    width: 180px;
+    height: 25px;
+    display: block;
+    background-image: url(./img/logo_site.svg);
+    background-repeat: no-repeat;
+    text-indent: -999999px;
+    margin-top: 10px;
+}
+.header_utill ul {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    left: 300px;
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+}
+.header_utill li {
+    font-size: 15px;
+    color: #111;
+
+}
+.header_utill li:nth-child(2),
+.header_utill li:nth-child(3),
+.header_utill li:nth-child(4),
+.header_utill li:nth-child(5) {
+    margin-left: 300px;;
+}
+.header_utill li:nth-child(3) {
+    top: 5px;
+    border: 2px solid burlywood;
+    padding: 15px 20px;
+}
