@@ -3,12 +3,10 @@
     width: 100%;
     min-width: 1220px;
 }
-
 #header {
     position: relative;
     padding: 20px 50px;
     display: flex;
-    border: 1px solid #000;
 }
 .logo a {
     width: 180px;
@@ -21,26 +19,38 @@
 }
 .header_utill ul {
     position: absolute;
-    top: 25px;
+    top: 15px;
     right: 20px;
-    left: 300px;
     display: flex;
+    text-align: center;
     justify-content: end;
     margin-right: 50px;
+    margin: 0 auto;
+    color: #111;
 }
 .header_utill li {
+    margin-right: 100px;
+    padding: 10px 0;
+    justify-content: center;
+}
+.header_utill li a {
     font-size: 15px;
     color: #111;
-
 }
-.header_utill li:nth-child(2),
-.header_utill li:nth-child(3),
-.header_utill li:nth-child(4),
-.header_utill li:nth-child(5) {
-    margin-left: 300px;;
-}
-.header_utill li:nth-child(3) {
-    top: 5px;
+.btn_reservation {
     border: 2px solid burlywood;
-    padding: 15px 20px;
+}
+.btn_reservation a {
+    margin: 0 35px;
+}
+.btn_findHotel {
+    background-color:burlywood;
+    border: 2px solid burlywood;
+}
+.btn_findHotel a {
+    margin: 0 35px;
+}
+.btn_findHotel ::after {
+    content: '';
+    color: #111;
 }
